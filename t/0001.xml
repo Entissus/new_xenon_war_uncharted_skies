@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<page id="48000" title="Ship Titles" descr="Titles of ships when spawned" voice="no">
+		<t id="1">System Analyst</t>	
+		<t id="2">Reclamation</t>	
+		<t id="3">Semiconductor</t>	
+		<t id="4">Node Tender</t>	
+		<t id="5">Emergent</t>	
+		<t id="6">Nascent</t>			
+	</page>
+	
+	<page id="48001" title="PX" descr="PX" voice="yes">
+		<t id="1">A new configuration of the ubiquitous P, the PX is a heavy bomber featuring twin torpedo launch tubes with the capacity to field the devistating anti-capital torpedoes of the new LX bomber.</t>
+		<t id="2">IG M - PX Internal Generator</t>	
+		<t id="3">{20403,16}{20403,24}</t>
+		<t id="4">The D is another new configuration of the ubiquitous P which is clearly the Xenon's version of a gunboat. Equiped with 2 additional turrets along with reinforcemented armor, the D fills the anti-fighter void in Xenon fleet compositions.</t>
+		<t id="5">IG M - D Internal Generator</t>			
+	</page>
+	
+	<page id="48002" title="sectors" descr="sectors" voice="yes">
+		<t id="1">{20005,6029}(Bad Debt)</t>
+		<t id="11">Once the first and only Teladi Sector bordering the Paranid, Bad Debt quickly fell into disuse with only a few Paranid ships entering for supplies despite relations between the two slowly improving. The situation for Bad Debt rapidly deteriorated during the beginnings of the Gate Shutdown and while they were initially still connected to the network eventually both gates deactivated and the sector was lost to the dark. \n\nVery little information has been recovered regarding the sector but what is known is that sometime after the shutdown, the now dormant northern gate reactivated and a swarm of Xenon emerged, plunged the sector into chaos, and destroyed all life. Now it is not only an embarrassing reminder to the Teladi for their past bad investment but also a painful reminder to those who were lost. \n\nWhile the sector was mostly devoid of resources in the past, it is now saturated due to the Xenon's destruction of a local moon via unknown means.</t>			
+		<t id="2">{20005,8001} {20005,8003}{20404,6}{20404,9}{20404,5}(Matrix #695)</t>	
+		<t id="21">Identified as a heavily entrenched Xenon sector prior to the shutdown, #695 was barely explored due to the extreme risk to pilots and the data corruption of remote drones. While it once was believed to be a core sector; #695 was clearly severed from the wider Xenon network prior to its recent reconnection.</t>
+		<t id="3">{20005,8001} {20005,8003}{20404,6}{20404,9}{20404,5}{20403,1}(Matrix #695A)</t>
+		<t id="31">Initially explored by the Vigour Syndicate following the gate activation in Windfall III, this sector was quickly identified as a major Xenon threat instead of a potentially exploitable resource. The system is dominated by an enormous debris field in its center that is a collection of old and now new wreckage. \n\nThe remains of an old Zyarth fleet still haunt the Southern gate, once the only connection into the sector prior to the Shutdown.</t>		
+		<t id="4">{20005,8001} {20005,8003}{20404,6}{20404,9}{20404,5}{20403,2}(Matrix #695B)</t>
+		<t id="41">Believed to be the heart of #695, almost no information is known regarding this sector. Blurred images of large Xenon warships and strange crystalized structures have led many to speculate the sector is of great importance to the local Xenon branch.</t>		
+	</page>
+</language>	

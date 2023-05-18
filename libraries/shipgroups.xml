@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>	
+
+<diff>
+	<add sel="//groups">
+		<group name="xen_lx">
+			<select macro="ship_xen_s_fighter_lx_macro" weight="100" />
+		</group>
+	</add>	
+
+	<add sel="/groups/group[@name='xen_fighter_m']">
+		<select macro="ship_xen_m_fighter_px_macro" weight="10" />
+		<select macro="ship_xen_m_fighter_d_macro" weight="75" />		
+	</add>
+	
+	<add sel="//groups">
+		<group name="xen_px">
+			<select macro="ship_xen_m_fighter_px_macro" weight="100" />
+		</group>
+	</add>	
+	<add sel="//groups">
+		<group name="xen_d">
+			<select macro="ship_xen_m_fighter_d_macro" weight="100" />
+		</group>
+	</add>
+</diff>

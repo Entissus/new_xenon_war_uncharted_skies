@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<add sel="/ships">
+	<ship id="xenon_destroyer_defender" group="xen_destroyer_xl" capturable="false">
+		<category tags="[military, defender]" faction="[xenon]" size="ship_xl"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_large_xenon"/>
+	</ship>
+	
+	<ship id="xenon_battleship_reclaimer" group="xen_carrier_xl" capturable="false">
+		<category tags="[military, battleship]" faction="[xenon]" size="ship_xl"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_large_xenon"/>
+	</ship>
+
+	<ship id="xenon_d_gunboat" group="xen_d" capturable="false">
+		<category tags="[military, gunboat]" faction="[xenon]" size="ship_m"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_small_xenon"/>
+	</ship>
+	
+	<ship id="xenon_px_bomber" group="xen_px" capturable="false">
+		<category tags="[military, bomber]" faction="[xenon]" size="ship_m"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_small_xenon"/>
+	</ship>	
+	
+	<ship id="xenon_lx_bomber_escort" group="xen_lx" capturable="false">
+		<category tags="[military, bomber]" faction="[xenon]" size="ship_s"/>
+		<pilot>
+			<select faction="xenon" tags="fighterpilot"/>
+		</pilot>
+		<drop ref="ship_small_xenon"/>
+	</ship>
+</add>
+</diff>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="newxenonwarunchartedskies" name="New Xenon War Uncharted Skies" description="v1.0 BETA. Adds 2 new Xenon Sectors, 2 new Xenon Ships, and a host of additional defensive jobs along with pseudo bosses. Readme for details." author="Entisus" version="100" date="2023-05-17" save="0" enabled="1">
+	<dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
+	<dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
+	<dependency id="ego_dlc_boron" optional="false" name="Kingdom End" />
+	<dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+	<dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul"/>	
+	<text language="7" 	name="New Xenon War Uncharted Skies" description="v1.0 BETA. Adds 2 new Xenon Sectors, 2 new Xenon Ships, and a host of additional defensive jobs along with pseudo bosses. Readme for details." author="Entissus" />
+</content>

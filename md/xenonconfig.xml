@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="xenonconfig">
+	<cues>
+<!-- Runs once on gamestart or when the game is loaded where this mod was not active before -->
+		<cue name="Setup" namespace="this" version="1">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start"/>
+			</conditions>
+		<actions>
+			<set_job_active job="'xenon_carrier_patrol_xl_defence_new_xenon_war'"/>
+			<set_job_active job="'xenon_destroyer_patrol_xl_new_xenon_war'"/>
+			<set_job_active job="'xenon_patrol_m_new_xenon_war'"/>
+			<set_job_active job="'xenon_patrol_s_new_xenon_war'"/>
+			<set_job_active job="'xenon_deepspace_single_fighter_new_xenon_war'"/>
+			<set_job_active job="'xenon_deepspace_group_fighter_new_xenon_war'"/>
+			<set_job_active job="'xenon_miner_new_xenon_war'"/>
+			<set_job_active job="'xenon_energy_new_xenon_war'"/>		
+		</actions>
+		</cue>
+<!--Activation-->	
+		<cue name="ActivateMiners" instantiate="true">
+			<conditions>			
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.age ge 3h"/>		<!-- 3h -->			
+			</conditions>
+			<actions>
+				<set_job_active job="'xenon_miner_emperor_pride'" activate="true"/>
+				<set_job_active job="'xenon_miner_matrix598'" activate="true" />
+				<set_job_active job="'xenon_miner_matrix79b'" activate="true" />
+				<set_job_active job="'xenon_miner_matrix9'" activate="true" />
+				<set_job_active job="'xenon_miner_atiyas_misfortune'" activate="true" />
+				<set_job_active job="'xenon_miner_scale_plate_green'" activate="true" />
+				<set_job_active job="'xenon_miner_savage_spur'" activate="true" />				
+				<debug_text text="'Additonal Xenon miners activated'" />				
+			</actions>
+		</cue>	
+		
+		<cue name="ActivateTraders" instantiate="true">
+			<conditions>			
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.age ge 3h"/>		<!-- 3h -->			
+			</conditions>
+			<actions>
+				<set_job_active job="'xenon_trader_emperor_pride'" activate="true"/>
+				<set_job_active job="'xenon_trader_matrix598'" activate="true" />
+				<set_job_active job="'xenon_trader_matrix79b'" activate="true" />
+				<set_job_active job="'xenon_trader_matrix9'" activate="true" />
+				<set_job_active job="'xenon_trader_atiyas_misfortune'" activate="true" />
+				<set_job_active job="'xenon_trader_scale_plate_green'" activate="true" />
+				<set_job_active job="'xenon_trader_savage_spur'" activate="true" />	
+				<debug_text text="'Additonal Xenon traders activated'" />				
+			</actions>
+		</cue>
+
+		<cue name="ActivateDefender1" instantiate="true">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.age ge 2h"/>	<!-- 2h -->
+			</conditions>
+			<actions>		
+				<set_job_active job="'xenon_strike_craft_emperor_pride'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_matrix598'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_matrix79b'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_matrix9'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_atiyas_misfortune'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_scale_plate_green'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_bad_debt'" activate="true"/>
+				<set_job_active job="'xenon_strike_craft_matrix695b'" activate="true"/>				
+				<debug_text text="'First Defenders activated'"/>
+			</actions>
+		</cue>
+		
+		<cue name="ActivateDefender2" instantiate="true">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.age ge 4h"/> <!-- 4h -->
+			</conditions>
+			<actions>			
+				<set_job_active job="'xenon_destroyers_emperor_pride'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_matrix598'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_matrix79b'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_matrix9'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_atiyas_misfortune'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_scale_plate_green'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_savage_spur'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_bad_debt'" activate="true"/>
+				<set_job_active job="'xenon_destroyers_matrix695b'" activate="true"/>				
+				<debug_text text="'Second Defenders activated'"/>
+			</actions>
+		</cue>		
+		
+		<cue name="ActivateDefender3" instantiate="true">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.age ge 8h"/> <!-- 8h -->
+			</conditions>
+			<actions>			
+				<set_job_active job="'xenon_carrier_emperor_pride'" activate="true"/>
+				<set_job_active job="'xenon_carrier_matrix598'" activate="true"/>
+				<set_job_active job="'xenon_carrier_matrix79b'" activate="true"/>
+				<set_job_active job="'xenon_carrier_matrix9'" activate="true"/>
+				<set_job_active job="'xenon_carrier_atiyas_misfortune'" activate="true"/>
+				<set_job_active job="'xenon_carrier_scale_plate_green'" activate="true"/>
+				<set_job_active job="'xenon_carrier_savage_spur'" activate="true"/>
+				<set_job_active job="'xenon_carrier_bad_debt'" activate="true"/>
+				<set_job_active job="'xenon_carrier_matrix695b'" activate="true"/>				
+				<debug_text text="'Third Defenders activated'"/>
+			</actions>
+		</cue>	
+	</cues>
+</mdscript>

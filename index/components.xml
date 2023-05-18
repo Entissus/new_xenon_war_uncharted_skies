@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+		<entry name="ship_xen_m_fighter_px" 		value="extensions\new_xenon_war_uncharted_skies\assets\units\size_m\ship_xen_m_fighter_px"/>
+		<entry name="ishield_xen_m_fighter_px" 		value="extensions\new_xenon_war_uncharted_skies\assets\props\surfaceelements\ishield_xen_m_fighter_px"/>		
+		<entry name="ship_xen_m_fighter_d" 			value="extensions\new_xenon_war_uncharted_skies\assets\units\size_m\ship_xen_m_fighter_d"/>
+		<entry name="ishield_xen_m_fighter_d" 		value="extensions\new_xenon_war_uncharted_skies\assets\props\surfaceelements\ishield_xen_m_fighter_d"/>			
+	</add>
+</diff>

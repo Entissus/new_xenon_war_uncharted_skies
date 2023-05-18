@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index"> <!-- Ships/Shields -->
+		<entry name="ship_xen_m_fighter_px_macro" 			value="extensions\new_xenon_war_uncharted_skies\assets\units\size_m\macros\ship_xen_m_fighter_px_macro"/>
+		<entry name="ishield_xen_m_fighter_px_macro" 		value="extensions\new_xenon_war_uncharted_skies\assets\props\surfaceelements\macros\ishield_xen_m_fighter_px_macro"/>	
+		<entry name="ship_xen_m_fighter_d_macro" 			value="extensions\new_xenon_war_uncharted_skies\assets\units\size_m\macros\ship_xen_m_fighter_d_macro"/>
+		<entry name="ishield_xen_m_fighter_d_macro" 		value="extensions\new_xenon_war_uncharted_skies\assets\props\surfaceelements\macros\ishield_xen_m_fighter_d_macro"/>		
+	</add>
+	
+	<add sel="/index"> <!-- Sectors -->
+	<!-- Bad Debt -->
+	<entry name="Cluster_nxw01_macro" 									value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_clusters" />
+	<entry name="Cluster_nxw01_Sector001_macro" 						value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_sectors" />
+	<entry name="Zone_Gate1_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />	
+	<entry name="Zone_Gate2_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />			
+	<entry name="Zone001_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />	
+	<entry name="Zone002_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone003_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone004_Cluster_nxw01_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />	
+	<entry name="ZoneSP_Cluster_nxw01_Sector001_macro" 					value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="ZoneWF_Cluster_nxw01_Sector001_macro" 					value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	
+	<!-- Matrix #695 -->
+	<entry name="Cluster_nxw02_macro" 									value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_clusters" />
+	<entry name="Cluster_nxw02_Sector001_macro" 						value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_sectors" />
+	<entry name="Cluster_nxw02_Sector002_macro" 						value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_sectors" />
+
+	<!-- Matrix #695A -->	
+	<entry name="Zone_Gate1_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone_Gate2_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone_Gate3_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />	
+	<entry name="Zone001_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone002_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone003_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone004_Cluster_nxw02_Sector001_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	
+	<!-- Matrix #695B -->
+	<entry name="Zone_Gate1_Cluster_nxw02_Sector002_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone001_Cluster_nxw02_Sector002_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone002_Cluster_nxw02_Sector002_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="Zone003_Cluster_nxw02_Sector002_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />	
+	<entry name="Zone004_Cluster_nxw02_Sector002_macro" 				value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="ZoneSP_Cluster_nxw02_Sector002_macro" 					value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	<entry name="ZoneWF_Cluster_nxw02_Sector002_macro" 					value="extensions\new_xenon_war_uncharted_skies\maps\XU_ep2_universe\new_xenon_war_zones" />
+	
+	</add>
+</diff>
