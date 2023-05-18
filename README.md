@@ -1,4 +1,4 @@
-# v1.0 BETA # -- Updated notes pending
+# v1.0 BETA - UNCHARTED SKIES VERSION 
 First off; a massive thank you to DeadAir for creating the script which spawns the Reclaimer fleets. Without their support that feature would likely have never been implemented properly, so thank you again, DeadAir, for putting up with this amateur and for your support and effort. A thank you to **7thCore for making the Farnham's Legend** mod which served as the inspiration and springboard for this project. I knew nothing about sector creation before starting this and learned via their work. Another thank you to Sira and JkelleyK for helping me catch my syntax errors and listening to my rambles.
 
 
